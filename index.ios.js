@@ -11,7 +11,7 @@ import configureStore from './src/store/configureStore';
 
 const store = configureStore();
 
-class AnimationLag extends Component {
+class AnimationLagRepro extends Component {
   render() {
     return (
       <Provider store={store}>
@@ -21,4 +21,4 @@ class AnimationLag extends Component {
   }
 }
 
-AppRegistry.registerComponent('AnimationLag', () => AnimationLag);
+AppRegistry.registerComponent('AnimationLagRepro', () => AnimationLagRepro);
