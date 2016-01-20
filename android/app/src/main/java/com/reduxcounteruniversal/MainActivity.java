@@ -1,4 +1,4 @@
-package com.reduxcounteruniversal;
+package com.AnimationLag;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -30,7 +30,7 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
                 .setInitialLifecycleState(LifecycleState.RESUMED)
                 .build();
 
-        mReactRootView.startReactApplication(mReactInstanceManager, "ReduxCounterUniversal", null);
+        mReactRootView.startReactApplication(mReactInstanceManager, "AnimationLag", null);
 
         setContentView(mReactRootView);
     }

@@ -11,7 +11,7 @@ import configureStore from './src/store/configureStore';
 
 const store = configureStore();
 
-class ReduxCounterUniversal extends Component {
+class AnimationLag extends Component {
   render() {
     return (
       <Provider store={store}>
@@ -21,4 +21,4 @@ class ReduxCounterUniversal extends Component {
   }
 }
 
-AppRegistry.registerComponent('ReduxCounterUniversal', () => ReduxCounterUniversal);
+AppRegistry.registerComponent('AnimationLag', () => AnimationLag);

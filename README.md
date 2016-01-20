@@ -28,7 +28,7 @@ npm i
 
 #### run iOS
 
-Open `ios/ReduxCounterUniversal.xcodeproj` and hit run in Xcode.
+Open `ios/AnimationLag.xcodeproj` and hit run in Xcode.
 
 #### run Android
 
